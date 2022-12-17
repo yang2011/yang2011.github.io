@@ -1,14 +1,11 @@
 # jemdoc: menu{MENU}{project.html},addcss{https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css},addcss{https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css},addjs{https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min},addjs{https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min},addcss{https://unpkg.com/gitalk/dist/gitalk.css},addjs{https://unpkg.com/gitalk/dist/gitalk.min} 
 
-== Virtual Poster Session
 
+== Group B (Computer Vision) 
 ~~~
 {}  
 Yang: Testing table layout. Opens PDF in another window. Need to store both a preview image and the PDF file.
 ~~~
-
-=== Group B (Computer Vision) 
-
 
 ~~~
 {}{img_left}{./images/team13s.png}{}{400px}{}{}

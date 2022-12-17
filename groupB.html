@@ -61,17 +61,38 @@ MathJax.Hub.Config({
 <div id="layout-content">
 <h2>Virtual Poster Session</h2>
 <div class="infoblock">
-<div class="blocktitle">Get Started</div>
+<div class="blocktitle"></div>
 <div class="blockcontent">
-<p>Important instructions go here&hellip;</p>
+<p>Yang: Testing table layout. Opens PDF in another window. Need to store both a preview image and the PDF file.</p>
 </div></div>
-<table id="office-hour">
-<tr class="r1"><td class="c1">Group </td><td class="c2"> Topic Areas </td><td class="c3"> Teams </td></tr>
-<tr class="r2"><td class="c1"><a href="groupA.html" target=&ldquo;blank&rdquo;>A</a> </td><td class="c2"> AI applications </td><td class="c3"> 1, 6, 9 </td></tr>
-<tr class="r3"><td class="c1"> <a href="groupA.html" target=&ldquo;blank&rdquo;>B</a> </td><td class="c2"> Computer vision, image processing </td><td class="c3"> 13 </td></tr>
-<tr class="r4"><td class="c1"> C </td><td class="c2"> Robotics, control  </td><td class="c3">  </td></tr>
-<tr class="r5"><td class="c1">D </td><td class="c2"> Theory </td><td class="c3">  
-</td></tr></table>
+<h3>Group B (Computer Vision) </h3>
+<div id="text-img-container"><div id="img-container">
+<img src="./images/team13s.png" alt="" width="400px" /></div>
+<div id="text-container"><h4>Team 9</h4>
+<p><a href="media/team13.pdf" target=&ldquo;blank&rdquo;>View Full Poster</a></p>
+<ul>
+<li><p>Title </p>
+</li>
+<li><p>Authors</p>
+</li>
+</ul>
+</div></div>
+<p>
+<div id="gitalk-container">
+<script>
+var gitalk = new Gitalk({
+clientID: '0b9792264042c25d75eb',
+clientSecret: '28a3e4bc05c3cc78a69bde247d7d4ab629cda58c',
+repo: 'lfd2022-comments',
+owner: 'yang2011',
+admin:  ['yang2011'],
+id: location.pathname,      // Ensure uniqueness and len
+distractionFreeMode: false  // Facebook-like distraction
+})
+gitalk.render('gitalk-container')
+</script>
+</div>
+</p>
 </div> <!-- <div id="layout-content"> -->
 <div id="footer-container">
 <div id="footer">

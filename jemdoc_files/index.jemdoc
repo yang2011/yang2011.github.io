@@ -2,19 +2,20 @@
 
 == Virtual Poster Session
 
-{{
-<div id="gitalk-container">
-<script>
-var gitalk = new Gitalk({
-    clientID: '0b9792264042c25d75eb',
-    clientSecret: '28a3e4bc05c3cc78a69bde247d7d4ab629cda58c',
-    repo: 'lfd2022-comments',
-    owner: 'yang2011',
-    admin:  ['yang2011'],
-    id: location.pathname,      // Ensure uniqueness and len
-    distractionFreeMode: false  // Facebook-like distraction
-})
-gitalk.render('gitalk-container')
-</script>
-</div>
-}}
+
+
+~~~
+{Get Started}  
+Important instructions go here...
+
+~~~
+
+
+~~~
+{}{table}{office-hour}
+Group | Topic Areas | Teams ||
+[groupA.html A] | AI applications | 1, 6, 9 || 
+[groupA.html B] | Computer vision, image processing | 13 || 
+C | Robotics, control  |  ||
+D | Theory |  
+~~~

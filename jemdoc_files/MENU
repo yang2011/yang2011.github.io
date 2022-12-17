@@ -1,10 +1,6 @@
-Class Page
-    top                 [index.html]
-    schedule            [index.html#schedule]
-    recitation          [index.html#recitation]
-    final project       [project.html]
+Site Map
+    top                 [index.html] 
 Links
-    Fall 2021 page     [../lfd2021fall]
-    Fall 2020 page    [../lfd2020fall]
+    Class page          [\http://yangli-feasibility.com/home/classes/lfd2022fall/] 
     TBSI                [\https://www.tbsi.edu.cn/]
     Tsinghua SIGS       [\https://www.sigs.tsinghua.edu.cn/en/]

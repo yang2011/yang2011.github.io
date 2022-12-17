@@ -1,6 +1,6 @@
 #!/bin/bash 
 
-jemdoc -c mysite.conf -o ../www/ *.jemdoc
+jemdoc -c mysite.conf -o ../ *.jemdoc
 echo "compilation done!"
 
 

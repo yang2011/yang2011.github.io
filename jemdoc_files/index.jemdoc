@@ -6,11 +6,11 @@
 <div id="gitalk-container">
 <script>
 var gitalk = new Gitalk({
-    clientID: 'GitHub Application Client ID',
-    clientSecret: 'GitHub Application Client Secret',
-    repo: 'GitHub repo',
-    owner: 'GitHub repo owner',
-    admin:  ['GitHub repo owner and collaborators, only these guys can initialize github issues'],
+    clientID: '0b9792264042c25d75eb',
+    clientSecret: '28a3e4bc05c3cc78a69bde247d7d4ab629cda58c',
+    repo: 'lfd2022-comments',
+    owner: 'yang2011',
+    admin:  ['yang2011'],
     id: location.pathname,      // Ensure uniqueness and len
     distractionFreeMode: false  // Facebook-like distraction
 })

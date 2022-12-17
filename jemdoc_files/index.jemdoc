@@ -1,0 +1,20 @@
+# jemdoc: menu{MENU}{project.html},addcss{https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css},addcss{https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css},addjs{http://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min},addjs{https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min},addcss{https://unpkg.com/gitalk/dist/gitalk.css},addjs{https://unpkg.com/gitalk/dist/gitalk.min} 
+
+== Virtual Poster Session
+
+{{
+<div id="gitalk-container">
+<script>
+var gitalk = new Gitalk({
+    clientID: 'GitHub Application Client ID',
+    clientSecret: 'GitHub Application Client Secret',
+    repo: 'GitHub repo',
+    owner: 'GitHub repo owner',
+    admin:  ['GitHub repo owner and collaborators, only these guys can initialize github issues'],
+    id: location.pathname,      // Ensure uniqueness and len
+    distractionFreeMode: false  // Facebook-like distraction
+})
+gitalk.render('gitalk-container')
+</script>
+</div>
+}}

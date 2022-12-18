@@ -22,8 +22,8 @@ Yang: Testing table layout. Opens PDF in another window. Need to store both a pr
 <div id="gitalk-container">
 <script>
 var gitalk = new Gitalk({
-    clientID: '0b9792264042c25d75eb',
-    clientSecret: '28a3e4bc05c3cc78a69bde247d7d4ab629cda58c',
+    clientID: 'c79f1e7c4aac4407e20f',
+    clientSecret: 'e9b5ef37bc50d09079b2e1a7f99217c11bc2faef',
     repo: 'lfd2022-comments',
     owner: 'yang2011',
     admin:  ['yang2011'],
